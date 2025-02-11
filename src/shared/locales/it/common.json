@@ -1,0 +1,65 @@
+{
+  "about": "Сhi siamo",
+  "why": "Perché noi",
+  "services": "I nostri servizi",
+  "contacts": "Contatti",
+  "hero button": "Contattaci",
+  "hero title 1": "Diamo energia al tuo futuro",
+  "hero title 2": "con soluzioni chiavi in mano",
+  "hero title 3": "per l'energia verde",
+  "hero subtitle": "Fornitura, installazione e manutenzione complete per tutte le tecnologie di energia rinnovabile.",
+  "about subtitle": "Chi siamo",
+  "about title": "La nostra missione è guidare la transizione verso un futuro sostenibile fornendo soluzioni innovative, efficienti e affidabili nel settore delle energie rinnovabili.",
+  "about description": {
+    "first": {
+      "title": "Sostenibilità",
+      "description": "Ci impegniamo a ridurre l'impatto ambientale e a preservare le risorse naturali."
+    },
+    "second": {
+      "title": "Innovazione",
+      "description": "Sfruttiamo le tecnologie più avanzate per rimanere all'avanguardia nel settore delle energie rinnovabili."
+    },
+    "third": {
+      "title": "Affidabilità",
+      "description": "La nostra esperienza garantisce la consegna dei progetti nei tempi previsti e secondo i più alti standard di qualità."
+    },
+    "fourth": {
+      "title": "Orientamento al cliente",
+      "description": "Costruiamo relazioni durature soddisfacendo e superando le aspettative dei nostri clienti."
+    }
+  },
+  "why subtitle": "Perché scegliere noi?",
+  "why title": "Con anni di esperienza nel settore delle energie rinnovabili e numerose installazioni di successo, ecco perché ci distinguiamo:",
+  "why description": {
+    "first": {
+      "number": "01",
+      "title": "Principale Fornitore di Energia Rinnovabile",
+      "description": "Siamo uno dei maggiori fornitori di energia rinnovabile in Europa, offrendo soluzioni di alta qualità per aziende di ogni dimensione. Con anni di esperienza e un solido track record, garantiamo affidabilità ed efficienza in ogni progetto.",
+      "caption": ["Successo comprovato", "Leader del settore", "Partner di fiducia"]
+    },
+    "second": {
+      "number": "02",
+      "title": "Soluzioni Chiavi in Mano",
+      "description": "Gestiamo l'intero processo, dalla consulenza alla progettazione, installazione e manutenzione. Il nostro approccio end-to-end semplifica la transizione energetica, eliminando la necessità di più fornitori e garantendo un'esecuzione efficiente del progetto.",
+      "caption": ["Servizio chiavi in mano", "Esecuzione senza intoppi", "Supporto a lungo termine"]
+    },
+    "third": {
+      "number": "03",
+      "title": "Affidabilità per le Grandi Aziende",
+      "description": "I nostri clienti includono le principali aziende europee, industrie e istituzioni governative. Siamo riconosciuti per la nostra affidabilità, trasparenza e impegno nel fornire soluzioni energetiche sostenibili che rispettano i più alti standard del settore.",
+      "caption": ["Leader riconosciuto", "Soluzioni certificate", "Partnership a lungo termine"]
+    },
+    "fourth": {
+      "number": "04",
+      "title": "ecnologia Avanzata & Sostenibilità",
+      "description": "Utilizziamo tecnologie innovative nel settore delle energie rinnovabili per massimizzare l'efficienza e ridurre l'impatto ambientale. I sistemi di monitoraggio intelligente ottimizzano la produzione di energia, garantendo sostenibilità e convenienza a lungo termine.",
+      "caption": ["Sistemi intelligenti", "Alta efficienza", "Basso impatto ambientale"]
+    },
+    "fifth": {
+      "number": "05",
+      "title": "Team Esperto e Certificato",
+      "description": "I nostri esperti sono certificati a livello internazionale e continuamente aggiornati sulle ultime innovazioni del settore. Offriamo soluzioni energetiche personalizzate, garantendo un servizio di alta qualità e affidabilità a lungo termine per ogni cliente.",
+      "caption": ["Esperti certificati", "Approccio personalizzato", "Decenni di esperienza"]
+    }
+  }
+}

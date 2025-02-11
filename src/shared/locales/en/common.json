@@ -1,0 +1,65 @@
+{
+  "about": "About",
+  "why": "Why we",
+  "services": "Our services",
+  "contacts": "Contacts",
+  "hero button": "Connect us",
+  "hero title 1": "Empowering Your Future",
+  "hero title 2": "with Turnkey Green",
+  "hero title 3": "Energy Solutions",
+  "hero subtitle": "Comprehensive supply, installation, and maintenance services for all renewable energy technologies.",
+  "about subtitle": "About",
+  "about title": "Our mission is to lead the transition to a sustainable future by delivering innovative, efficient, and reliable renewable energy solutions.",
+  "about description": {
+    "first": {
+      "title": "Sustainability",
+      "description": "We are dedicated to reducing environmental impact and preserving natural resources."
+    },
+    "second": {
+      "title": "Innovation",
+      "description": "We leverage the latest technologies to stay ahead in the renewable energy sector."
+    },
+    "third": {
+      "title": "Reliability",
+      "description": "Our expertise ensures projects are delivered on time and to the highest standards."
+    },
+    "fourth": {
+      "title": "Customer Focus",
+      "description": "We build long-term relationships by meeting and exceeding client expectations."
+    }
+  },
+  "why subtitle": "Why Choose Us?",
+  "why title": "With years of experience in renewable energy and countless successful installations, here’s why we stand out:",
+  "why description": {
+    "first": {
+      "number": "01",
+      "title": "Leading Renewable Energy Provider",
+      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
+      "caption": ["Proven Success", "Industry Leader", "Trusted Partner"]
+    },
+    "second": {
+      "number": "02",
+      "title": "Full-Cycle Solutions",
+      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
+      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+    },
+    "third": {
+      "number": "03",
+      "title": "Trusted by Top Businesses",
+      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
+      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+    },
+    "fourth": {
+      "number": "04",
+      "title": "Advanced Technology & Sustainability",
+      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
+      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+    },
+    "fifth": {
+      "number": "05",
+      "title": "Experienced & Certified Team",
+      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
+      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+    }
+  }
+}
