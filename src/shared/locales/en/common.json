@@ -118,5 +118,46 @@
       "number": "/04",
       "description": "Energy independence and security for the future."
     }
-  }
+  },
+  "testimonial subtitle": "Client Testimonials",
+  "testimonial description": {
+    "first": {
+      "title": "Luca Romano",
+      "description": "Exceptional service from start to finish! The team handled everything seamlessly, and our energy costs have dropped significantly. Highly recommended!",
+      "author": "Manufacturing Plant Owner",
+      "country": "Italy"
+    },
+    "second": {
+      "title": "Sophie Martin",
+      "description": "Reliable, professional, and committed to sustainability. Our hotels now run on clean energy, reducing costs and enhancing our eco-friendly reputation. Their expertise and seamless execution made the transition effortless.",
+      "author": "Hotel Chain Manager",
+      "country": "France"
+    },
+    "third": {
+      "title": "Johan Andersson",
+      "description": "We wanted a more energy-efficient production facility. Their team provided a seamless transition to renewable energy, optimizing our operations while lowering costs. The installation was fast, and their ongoing support has been outstanding. A trusted partner for sustainability!",
+      "author": "Industrial Engineer",
+      "country": "Sweden"
+    },
+    "fourth": {
+      "title": "Elena Rossi",
+      "description": "Switching to renewable energy has increased our property value while lowering operational expenses. Their team took care of everything, and the results speak for themselves.",
+      "author": "Real Estate Developer",
+      "country": "Italy"
+    },
+    "fifth": {
+      "title": "Patrick Müller",
+      "description": "The best investment we’ve made! Our facility now runs on clean energy, and their smart monitoring system ensures everything is optimized for efficiency.",
+      "author": "Logistics Center Director",
+      "country": "Germany"
+    },
+    "sixth": {
+      "title": "Miguel Álvarez",
+      "description": "As a farm owner, energy independence was a priority. Their solar and wind solutions allow us to operate sustainably while cutting down costs. A fantastic team that truly understands green energy!",
+      "author": "Agricultural Business Owner",
+      "country": "Spain"
+    }
+  },
+  "testimonial show more": "Show more",
+  "testimonial show less": "Show less"
 }

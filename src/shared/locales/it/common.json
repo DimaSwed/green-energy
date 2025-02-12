@@ -118,5 +118,46 @@
       "number": "/04",
       "description": "Indipendenza energetica e sicurezza per il futuro."
     }
-  }
+  },
+  "testimonial subtitle": "Testimonianze dei Clienti",
+  "testimonial description": {
+    "first": {
+      "title": "Luca Romano",
+      "description": "Servizio eccezionale! L'intero processo è stato fluido e ora risparmiamo significativamente sui costi energetici.",
+      "author": "Proprietario di impianto di produzione",
+      "country": "Italia"
+    },
+    "second": {
+      "title": "Sophie Martin",
+      "description": "Affidabili, professionali e impegnati nella sostenibilità. I nostri hotel funzionano ora con energia pulita, riducendo i costi e migliorando la nostra reputazione ecologica. La loro esperienza e un'installazione impeccabile hanno reso la transizione semplice.",
+      "author": "Manager di catena alberghiera",
+      "country": "Francia"
+    },
+    "third": {
+      "title": "Johan Andersson",
+      "description": "Volevamo un impianto di produzione più efficiente dal punto di vista energetico. Il loro team ha fornito una transizione senza intoppi all'energia rinnovabile, ottimizzando le operazioni e riducendo i costi. L'installazione è stata rapida e il supporto continuo eccellente. Un partner di fiducia per la sostenibilità!",
+      "author": "Ingegnere industriale",
+      "country": "Svezia"
+    },
+    "fourth": {
+      "title": "Elena Rossi",
+      "description": "Passare alle energie rinnovabili ha aumentato il valore della nostra proprietà e ridotto le spese operative. Il loro team si è occupato di tutto e i risultati parlano da soli.",
+      "author": "Sviluppatrice immobiliare",
+      "country": "Italia"
+    },
+    "fifth": {
+      "title": "Patrick Müller",
+      "description": "Il miglior investimento che abbiamo fatto! La nostra struttura ora funziona con energia pulita e il loro sistema di monitoraggio intelligente ottimizza tutto per la massima efficienza.",
+      "author": "Direttore di centro logistico",
+      "country": "Germania"
+    },
+    "sixth": {
+      "title": "Miguel Álvarez",
+      "description": "Come agricoltore, l'indipendenza energetica era una priorità. Le loro soluzioni solari ed eoliche ci permettono di operare in modo sostenibile riducendo i costi. Un team fantastico che conosce davvero l'energia verde!",
+      "author": "Proprietario di azienda agricola",
+      "country": "Spagna"
+    }
+  },
+  "testimonial show more": "Mostra di più",
+  "testimonial show less": "Mostra di meno"
 }

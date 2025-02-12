@@ -6,6 +6,7 @@ import { WhySection } from './WhySection/WhySection'
 import { ServicesSection } from './ServicesSection/ServicesSection'
 import { ActionSection } from './ActionSection/ActionSection'
 import { AdvantageSection } from './AdvantageSection/AdvantageSection'
+import { TestimonialSection } from './TestimonialsSection/TestimonialSection'
 import { Footer } from '@/widgets'
 
 export const MainPage: FC = () => {
@@ -18,6 +19,7 @@ export const MainPage: FC = () => {
       <ServicesSection />
       <ActionSection />
       <AdvantageSection />
+      <TestimonialSection />
       <Footer />
     </>
   )
