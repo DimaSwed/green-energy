@@ -4,6 +4,7 @@ import { HeroSection } from './HeroSection/HeroSection'
 import { AboutSection } from './AboutSection/AboutSection'
 import { WhySection } from './WhySection/WhySection'
 import { ServicesSection } from './ServicesSection/ServicesSection'
+import { ActionSection } from './ActionSection/ActionSection'
 import { Footer } from '@/widgets'
 
 export const MainPage: FC = () => {
@@ -14,6 +15,7 @@ export const MainPage: FC = () => {
       <AboutSection />
       <WhySection />
       <ServicesSection />
+      <ActionSection />
       <Footer />
     </>
   )

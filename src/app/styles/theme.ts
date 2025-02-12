@@ -59,6 +59,20 @@ const lightTheme = createTheme({
     },
     h1: {
       fontFamily: 'Roboto, sans-serif',
+      fontSize: '82px',
+      fontWeight: 500,
+      fontStyle: 'normal',
+      lineHeight: '100%',
+      textTransform: 'none',
+      transition: 'font-size 2s ease',
+      '@media (max-width:1280px)': { fontSize: '72px' },
+      '@media (max-width:992px)': { fontSize: '58px' },
+      '@media (max-width:768px)': { fontSize: '44px' },
+      '@media (max-width:480px)': { fontSize: '26px' },
+      '@media (max-width:320px)': { fontSize: '18px' }
+    },
+    h2: {
+      fontFamily: 'Roboto, sans-serif',
       fontSize: '58px',
       fontWeight: 500,
       fontStyle: 'normal',
@@ -68,19 +82,6 @@ const lightTheme = createTheme({
       '@media (max-width:768px)': { fontSize: '46px' },
       '@media (max-width:480px)': { fontSize: '28px' },
       '@media (max-width:320px)': { fontSize: '22px' }
-    },
-    h2: {
-      // fontFamily: 'Roboto, sans-serif',
-      // fontSize: '72px',
-      // fontWeight: 600,
-      // fontStyle: 'normal',
-      // lineHeight: '100%',
-      // letterSpacing: '-0.03em',
-      // textTransform: 'none',
-      // transition: 'font-size 2s ease'
-      // '@media (max-width: 480px)': {
-      //   fontSize: '36px'
-      // }
     },
     h3: {
       fontFamily: 'Roboto, sans-serif',

@@ -56,7 +56,7 @@ export const HeroSection: FC = () => {
       >
         <Stack>
           <Typography
-            variant="h1"
+            variant="h2"
             sx={{
               color: 'text.secondary',
               textTransform: 'uppercase',
@@ -67,7 +67,7 @@ export const HeroSection: FC = () => {
           </Typography>
 
           <Typography
-            variant="h1"
+            variant="h2"
             sx={{
               color: 'text.secondary',
               textTransform: 'uppercase',
@@ -77,7 +77,7 @@ export const HeroSection: FC = () => {
             {t('hero title 2')}
           </Typography>
           <Typography
-            variant="h1"
+            variant="h2"
             sx={{
               color: 'text.secondary',
               textTransform: 'uppercase',
