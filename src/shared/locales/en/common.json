@@ -98,5 +98,25 @@
   "action title 5": "efficient, and",
   "action title 6": "sustainable. Contact us today",
   "action title 7": "to get",
-  "action title 8": "started!"
+  "action title 8": "started!",
+  "advantage subtitle": "What You Gain with Us",
+  "advantage title": "Our renewable energy solutions help you save costs, reduce environmental impact, increase property value, and achieve energy independence for a sustainable future.",
+  "advantage description": {
+    "first": {
+      "number": "/01",
+      "description": "Reduced energy costs with efficient renewable systems."
+    },
+    "second": {
+      "number": "/02",
+      "description": "Lower environmental impact and carbon footprint."
+    },
+    "third": {
+      "number": "/03",
+      "description": "Enhanced property value through sustainable energy integration."
+    },
+    "fourth": {
+      "number": "/04",
+      "description": "Energy independence and security for the future."
+    }
+  }
 }

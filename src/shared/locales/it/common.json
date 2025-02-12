@@ -98,5 +98,25 @@
   "action title 5": "efficienti e ",
   "action title 6": "sostenibili. Contattaci ora ",
   "action title 7": "ora per",
-  "action title 8": "iniziare!"
+  "action title 8": "iniziare!",
+  "advantage subtitle": "Cosa ottieni con noi",
+  "advantage title": "Le nostre soluzioni di energia rinnovabile ti aiutano a risparmiare, ridurre l'impatto ambientale, aumentare il valore della proprietà e raggiungere l'indipendenza energetica per un futuro sostenibile.",
+  "advantage description": {
+    "first": {
+      "number": "/01",
+      "description": "Riduzione dei costi energetici con sistemi rinnovabili efficienti."
+    },
+    "second": {
+      "number": "/02",
+      "description": "Minore impatto ambientale e riduzione dell'impronta di carbonio."
+    },
+    "third": {
+      "number": "/03",
+      "description": "Maggiore valore della proprietà grazie all’integrazione di energia sostenibile."
+    },
+    "fourth": {
+      "number": "/04",
+      "description": "Indipendenza energetica e sicurezza per il futuro."
+    }
+  }
 }
