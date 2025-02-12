@@ -40,26 +40,26 @@
     "second": {
       "number": "02",
       "title": "Full-Cycle Solutions",
-      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
-      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+      "description": "We manage the entire process, from consultancy to design, installation and maintenance. Our end-to-end approach simplifies the energy transition, eliminating the need for multiple suppliers and ensuring efficient project execution.",
+      "caption": ["Turnkey service", "Smooth execution", "Long-term support"]
     },
     "third": {
       "number": "03",
       "title": "Trusted by Top Businesses",
-      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
-      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+      "description": "Our customers include major European companies, industries and government institutions. We are recognized for our reliability, transparency and commitment to providing sustainable energy solutions that meet the highest industry standards.",
+      "caption": ["Recognized leader", "Certified solutions", "Long-term partnership"]
     },
     "fourth": {
       "number": "04",
       "title": "Advanced Technology & Sustainability",
-      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
-      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+      "description": "We use innovative technologies in the renewable energy sector to maximize efficiency and reduce environmental impact. Intelligent monitoring systems optimize energy production, ensuring long-term sustainability and convenience.",
+      "caption": ["Intelligent systems", "High efficiency", "Low environmental impact"]
     },
     "fifth": {
       "number": "05",
       "title": "Experienced & Certified Team",
-      "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
-      "caption": ["Qwerty", "Qwerty", "Qwerty"]
+      "description": "Our experts are internationally certified and continuously updated on the latest innovations in the sector. We offer customized energy solutions, ensuring high-quality service and long-term reliability for each customer.",
+      "caption": ["Certified Experts", "Personalized Approach", "Decades of Experience"]
     }
   },
   "services subtitle": "Our Services",
