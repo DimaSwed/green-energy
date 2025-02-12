@@ -61,5 +61,33 @@
       "description": "I nostri esperti sono certificati a livello internazionale e continuamente aggiornati sulle ultime innovazioni del settore. Offriamo soluzioni energetiche personalizzate, garantendo un servizio di alta qualità e affidabilità a lungo termine per ogni cliente.",
       "caption": ["Esperti certificati", "Approccio personalizzato", "Decenni di esperienza"]
     }
+  },
+  "services subtitle": "I nostri servizi",
+  "services title": "Soluzioni Complete di Energia Rinnovabile",
+  "services description": {
+    "first": {
+      "title": "Consulenza Energetica",
+      "description": "Analisi delle tue esigenze energetiche e progettazione di soluzioni ottimali."
+    },
+    "second": {
+      "title": "Progettazione e Ingegneria",
+      "description": "Sistemi personalizzati per massimizzare le prestazioni e la sostenibilità."
+    },
+    "third": {
+      "title": "Fornitura di Attrezzature",
+      "description": "Pannelli solari, turbine eoliche, batterie di alta qualità e molto altro."
+    },
+    "fourth": {
+      "title": "Servizi di Installazione",
+      "description": "Installazione professionale eseguita da tecnici certificati."
+    },
+    "fifth": {
+      "title": "Monitoraggio e Gestione dell’Energia",
+      "description": "Sistemi avanzati per tracciare, ottimizzare e immagazzinare energia."
+    },
+    "sixth": {
+      "title": "Manutenzione e Assistenza",
+      "description": "Supporto continuo per garantire efficienza e affidabilità a lungo termine."
+    }
   }
 }

@@ -61,5 +61,33 @@
       "description": "We are one of the largest renewable energy providers in Europe, delivering high-quality solutions for businesses of all sizes. With years of experience and a strong track record, we ensure reliability and efficiency in every project.",
       "caption": ["Qwerty", "Qwerty", "Qwerty"]
     }
+  },
+  "services subtitle": "Our Services",
+  "services title": "Comprehensive Renewable Energy Solutions",
+  "services description": {
+    "first": {
+      "title": "Energy Consultation",
+      "description": "Assessing your energy needs and designing optimal solutions."
+    },
+    "second": {
+      "title": "System Design & Engineering",
+      "description": "Customized systems to maximize performance and sustainability."
+    },
+    "third": {
+      "title": "Supply of Equipment",
+      "description": "High-quality solar panels, wind turbines, batteries, and more."
+    },
+    "fourth": {
+      "title": "Installation Services",
+      "description": "Professional installation by certified technicians."
+    },
+    "fifth": {
+      "title": "Energy Monitoring & Management",
+      "description": "Ongoing support for long-term efficiency and reliability."
+    },
+    "sixth": {
+      "title": "Maintenance & Support",
+      "description": "Ongoing support for long-term efficiency and reliability."
+    }
   }
 }

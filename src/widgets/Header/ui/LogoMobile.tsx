@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { Box } from '@mui/material'
+import headerLogoMobile from '@/shared/assets/brand-white.svg'
 
 export const LogoMobile: FC = () => {
   return (
@@ -12,7 +13,7 @@ export const LogoMobile: FC = () => {
         '@media (max-width:320px)': { height: '23px', width: '150px' }
       }}
       alt="Logo"
-      src={'/src/shared/assets/brand-white.svg'}
+      src={headerLogoMobile}
     />
   )
 }
