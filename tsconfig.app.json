@@ -27,5 +27,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "src/shared/config/i18n/i18n.ts"]
+  "include": ["src", "src/shared/config/i18n/i18n.ts", "api"]
 }
