@@ -9,14 +9,14 @@ const app = express()
 app.use(express.json())
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://green-energy-alpha.vercel.app',
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
     credentials: false
   })
 )
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:5173')
+  res.header('Access-Control-Allow-Origin', 'https://green-energy-alpha.vercel.app')
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
   res.header('Access-Control-Allow-Headers', 'Content-Type')
 
@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 })
 
 app.options('*', (req, res) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:5173')
+  res.header('Access-Control-Allow-Origin', 'https://green-energy-alpha.vercel.app')
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
   res.header('Access-Control-Allow-Headers', 'Content-Type')
   res.sendStatus(204)
@@ -37,12 +37,8 @@ app.options('*', (req, res) => {
 const PORT = 1234
 
 const transporter = nodemailer.createTransport({
-  // host: 'smtp.mail.ru',
-  // port: 587,
-  // secure: false,
-  // service: 'gmail',
-  host: 'smtp.gmail.com',
-  port: 465,
+  host: process.env.MAIL_HOST,
+  port: process.env.MAIL_PORT,
   secure: true,
   auth: {
     user: process.env.MAIL_USER,
@@ -60,7 +56,7 @@ async function sendEmail(req, res) {
   try {
     const info = await transporter.sendMail({
       from: `"${name}" <${process.env.MAIL_USER}>`,
-      to: 'dmitriy.rezulttat@gmail.com',
+      to: 'hello@green-energy-it.com',
       subject: '[Green Energy] Form Submission',
       text: `A new application has been received:\n\nName: ${name}\nEmail: ${mail}\nPhone: ${telephone}\nMessage: ${message}`,
       html: `
