@@ -180,11 +180,11 @@ export const ActionSection: FC = () => {
         </Box>
       </Stack>
 
-      <BlackButton
-        type="button"
-        iconColor="#FFFFFF"
+      <Box
+        component="a"
+        href="#form-section"
         sx={{
-          gap: '6px',
+          width: '100%',
           maxWidth: '416px',
           '@media (max-width: 1280px) and (min-width: 993px)': {
             maxWidth: '360px'
@@ -197,8 +197,26 @@ export const ActionSection: FC = () => {
           }
         }}
       >
-        {t('action button')}
-      </BlackButton>
+        <BlackButton
+          type="button"
+          iconColor="#FFFFFF"
+          sx={{
+            gap: '6px',
+            maxWidth: '416px',
+            '@media (max-width: 1280px) and (min-width: 993px)': {
+              maxWidth: '360px'
+            },
+            '@media (max-width: 992px) and (min-width: 769px)': {
+              maxWidth: '300px'
+            },
+            '@media (max-width: 768px) and (min-width: 481px)': {
+              maxWidth: '100%'
+            }
+          }}
+        >
+          {t('action button')}
+        </BlackButton>
+      </Box>
     </Stack>
   )
 }

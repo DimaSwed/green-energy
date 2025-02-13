@@ -242,14 +242,12 @@ export const HeroSection: FC = () => {
                 {t('hero subtitle')}
               </Typography>
 
-              <ColoredButton
-                type="button"
+              <Box
+                component="a"
+                href="#form-section"
                 sx={{
                   maxWidth: '356px',
-                  height: '42px',
-                  borderRadius: '100px',
-                  backgroundColor: '#FFFFFF',
-                  gap: '6px',
+                  width: '100%',
                   '@media (max-width:992px)': {
                     maxWidth: '297px'
                   },
@@ -258,8 +256,25 @@ export const HeroSection: FC = () => {
                   }
                 }}
               >
-                {t('hero button')}
-              </ColoredButton>
+                <ColoredButton
+                  type="button"
+                  sx={{
+                    maxWidth: '356px',
+                    height: '42px',
+                    borderRadius: '100px',
+                    backgroundColor: '#FFFFFF',
+                    gap: '6px',
+                    '@media (max-width:992px)': {
+                      maxWidth: '297px'
+                    },
+                    '@media (max-width:768px)': {
+                      maxWidth: '241px'
+                    }
+                  }}
+                >
+                  {t('hero button')}
+                </ColoredButton>
+              </Box>
             </Box>
           </Box>
 
@@ -271,9 +286,11 @@ export const HeroSection: FC = () => {
             >
               {t('hero subtitle')}
             </Typography>
-            <BlackButton type="button" iconColor="#FFFFFF" sx={{ gap: '6px' }}>
-              {t('hero button')}
-            </BlackButton>
+            <Box component="a" href="#form-section">
+              <BlackButton type="button" iconColor="#FFFFFF" sx={{ gap: '6px' }}>
+                {t('hero button')}
+              </BlackButton>
+            </Box>
           </Stack>
         </Stack>
       </Stack>

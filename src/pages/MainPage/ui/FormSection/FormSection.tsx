@@ -10,6 +10,7 @@ const FormSection: FC = () => {
 
   return (
     <Stack
+      id="form-section"
       sx={{
         position: 'relative',
         maxWidth: '1440px',
