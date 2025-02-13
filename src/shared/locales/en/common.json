@@ -159,5 +159,40 @@
     }
   },
   "testimonial show more": "Show more",
-  "testimonial show less": "Show less"
+  "testimonial show less": "Show less",
+  "form title": "Get in Touch with Us",
+  "form subtitle": "Have questions or want to learn more about our solar solutions? Fill out the form below, and our team will respond within 24 hours.",
+  "form input name": "Name",
+  "form input email": "Email",
+  "form input telephone": "Phone number",
+  "form input message": "Message",
+  "form send button": "Submit",
+  "form submitted text 1": "Thank you!",
+  "form submitted text 2": "Your submission has been received!",
+  "form error text": "Oops! Something went wrong while submitting the form.",
+  "form submitting text": "Submiting...",
+  "form submit text": "Submit",
+  "validation": {
+    "name": {
+      "required": "Please provide your name!",
+      "min": "Name must be at least 2 characters long",
+      "matches": "Name must contain only letters"
+    },
+    "telephone": {
+      "required": "Please provide a contact phone number!",
+      "matches": "Please enter a valid phone number in the format +39 (__) _______",
+      "numbers": "Please enter only numbers"
+    },
+    "mail": {
+      "email": "Invalid email address",
+      "matches": "Invalid email address",
+      "required": "Required field",
+      "min": "Email must be at least 8 characters long",
+      "max": "Email must be no more than 64 characters long"
+    },
+    "message": {
+      "required": "Required field",
+      "min": "Message must be at least 10 characters long"
+    }
+  }
 }

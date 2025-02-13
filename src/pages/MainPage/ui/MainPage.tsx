@@ -7,7 +7,9 @@ import { ServicesSection } from './ServicesSection/ServicesSection'
 import { ActionSection } from './ActionSection/ActionSection'
 import { AdvantageSection } from './AdvantageSection/AdvantageSection'
 import { TestimonialSection } from './TestimonialsSection/TestimonialSection'
+import FormSection from './FormSection/FormSection'
 import { Footer } from '@/widgets'
+import { Box } from '@mui/material'
 
 export const MainPage: FC = () => {
   return (
@@ -20,6 +22,14 @@ export const MainPage: FC = () => {
       <ActionSection />
       <AdvantageSection />
       <TestimonialSection />
+      <Box
+        sx={{
+          backgroundColor: 'secondary.main',
+          position: 'relative'
+        }}
+      >
+        <FormSection />
+      </Box>
       <Footer />
     </>
   )

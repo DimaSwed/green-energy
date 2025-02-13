@@ -1,17 +1,15 @@
 import { FC } from 'react'
 import { Box, Stack, Typography } from '@mui/material'
-import { SubtitleName } from '@/shared/ui/SubtitleName'
 import { useTranslation } from 'react-i18next'
 import { Language } from '@/app/types/language.types'
-import { ServicesGrid } from './ServicesGrid'
+import ContactForm from './Form'
 
-export const ServicesSection: FC = () => {
+const FormSection: FC = () => {
   const { t, i18n } = useTranslation()
   const isEnglish = i18n.language === Language.ENG
 
   return (
     <Stack
-      id="services-section"
       sx={{
         position: 'relative',
         maxWidth: '1440px',
@@ -46,42 +44,63 @@ export const ServicesSection: FC = () => {
           }
         }}
       >
-        <Box
+        <Stack
           sx={{
-            display: 'flex',
             flex: '1 1 10%',
-            alignItems: 'center',
-            justifyContent: 'space-between'
+            alignItems: 'start'
           }}
         >
-          <SubtitleName title={t('services subtitle')} />
-        </Box>
+          <Typography
+            variant="h2"
+            color="primary.light"
+            sx={{
+              textTransform: 'uppercase',
+              maxWidth: '416px',
+              width: '100%',
+              '@media (max-width: 1280px) and (min-width: 993px)': {
+                maxWidth: '360px'
+              },
+              '@media (max-width: 992px) and (min-width: 769px)': {
+                maxWidth: '300px'
+              },
+              '@media (max-width: 768px)': {
+                maxWidth: '100%'
+              },
+              '@media (max-width:320px)': {
+                fontSize: '28px',
+                maxWidth: isEnglish ? '250px' : '100%'
+              }
+            }}
+          >
+            {t('form title')}
+          </Typography>
+        </Stack>
         <Stack
           sx={{
             flex: '1 1 40%',
-            gap: '30px'
+            gap: '40px'
           }}
         >
           <Typography
             variant="h4"
+            color="primary.light"
             sx={{
               textTransform: 'uppercase',
               maxWidth: isEnglish ? '892px' : '940px',
-              color: 'secondary.main',
               width: '100%'
               // '@media (max-width: 768px)': {
               //   maxWidth: isEnglish ? '892px' : '720px'
               // }
             }}
           >
-            {t('services title')}
+            {t('form subtitle')}
           </Typography>
 
-          <Stack gap="15px">
-            <ServicesGrid />
-          </Stack>
+          <ContactForm />
         </Stack>
       </Box>
     </Stack>
   )
 }
+
+export default FormSection

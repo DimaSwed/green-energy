@@ -271,7 +271,7 @@ export const HeroSection: FC = () => {
             >
               {t('hero subtitle')}
             </Typography>
-            <BlackButton type="button" sx={{ gap: '6px' }}>
+            <BlackButton type="button" iconColor="#FFFFFF" sx={{ gap: '6px' }}>
               {t('hero button')}
             </BlackButton>
           </Stack>

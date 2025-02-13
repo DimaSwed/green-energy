@@ -10,16 +10,15 @@ export const ShowMoreButton = styled(Box)(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  gap: '10px',
+  gap: '6px',
   cursor: 'pointer',
   backgroundColor: 'transparent',
   border: '1px solid rgba(42, 108, 160, 1.0)',
   color: theme.palette.text.secondary,
   fontFamily: 'Open Sans, sans-serif',
   fontSize: '16px',
-  fontWeight: '500',
+  fontWeight: 500,
   fontStyle: 'normal',
-  lineHeight: '110%',
   borderRadius: '100px',
   outline: 'none'
 }))

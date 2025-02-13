@@ -159,5 +159,40 @@
     }
   },
   "testimonial show more": "Mostra di più",
-  "testimonial show less": "Mostra di meno"
+  "testimonial show less": "Mostra di meno",
+  "form title": "Mettiti in contatto con noi",
+  "form subtitle": "Hai domande o vuoi saperne di più sulle nostre soluzioni solari? Compila il modulo qui sotto e il nostro team ti risponderà entro 24 ore.",
+  "form input name": "Nome",
+  "form input email": "Email",
+  "form input telephone": "Numero di telefono",
+  "form input message": "Messagio",
+  "form send button": "Invia",
+  "form submitted text 1": "Grazie!",
+  "form submitted text 2": "La tua richiesta è stata ricevuta!",
+  "form error text": "Oops! Qualcosa è andato storto durante l'invio del modulo.",
+  "form submitting text": "Invio...",
+  "form submit text": "Invia",
+  "validation": {
+    "name": {
+      "required": "Per favore fornisci il tuo nome!",
+      "min": "Il nome deve contenere almeno 2 caratteri",
+      "matches": "Il nome deve contenere solo lettere"
+    },
+    "telephone": {
+      "required": "Si prega di fornire un numero di telefono di contatto!",
+      "matches": "Inserisci un numero di telefono valido nel formato +39 (__) _______",
+      "numbers": "Inserisci solo numeri"
+    },
+    "mail": {
+      "email": "Invalid email address",
+      "matches": "Invalid email address",
+      "required": "Required field",
+      "min": "Email must be at least 8 characters long",
+      "max": "Email must be no more than 64 characters long"
+    },
+    "message": {
+      "required": "Required field",
+      "min": "Message must be at least 10 characters long"
+    }
+  }
 }

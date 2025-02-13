@@ -182,6 +182,7 @@ export const ActionSection: FC = () => {
 
       <BlackButton
         type="button"
+        iconColor="#FFFFFF"
         sx={{
           gap: '6px',
           maxWidth: '416px',
