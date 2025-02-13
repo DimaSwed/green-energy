@@ -111,7 +111,7 @@ const Form: FC = () => {
   const onSubmit = async (values: IEmailRequestBody) => {
     try {
       setIsSubmitting(true)
-      const endpoint = 'http://localhost:1234/send-email'
+      const endpoint = 'https://green-energy-alpha.vercel.app//send-email'
       const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
